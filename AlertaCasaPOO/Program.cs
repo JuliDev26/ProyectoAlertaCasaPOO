@@ -1,1 +1,10 @@
-﻿Console.WriteLine("Hello, World!");
+﻿namespace AlertaCasaPOO
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            AnalizarTemperatura.CrearDirectorioCSV();
+        }
+    }
+}
