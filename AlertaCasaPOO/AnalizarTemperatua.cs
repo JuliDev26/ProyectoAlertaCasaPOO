@@ -55,12 +55,12 @@ namespace AlertaCasaPOO
                         }
                         break;
 
-                        
-                        
-                   
-
                     case 3:
                         Console.WriteLine("Saliendo del programa...");
+                        break;
+
+                    default:
+                        Console.WriteLine("Opción no valida, por favor introduce una opcion de la lista.");
                         break;
                         
                     
