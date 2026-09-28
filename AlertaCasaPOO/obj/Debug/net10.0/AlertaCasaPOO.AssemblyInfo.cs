@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AlertaCasaPOO")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3f07e3b0fe874746f52dc108597c40877ed5aa02")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+48aed3ff56daaf1b88c22424f9970007682b7b6d")]
 [assembly: System.Reflection.AssemblyProductAttribute("AlertaCasaPOO")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AlertaCasaPOO")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
