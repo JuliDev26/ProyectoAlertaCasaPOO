@@ -4,7 +4,7 @@
     {
         static void Main(string[] args)
         {
-            AnalizarTemperatura.CrearDirectorioCSV();
+            AnalizarTemperatura.historialTemperaturas();
         }
     }
 }

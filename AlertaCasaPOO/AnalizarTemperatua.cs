@@ -2,33 +2,64 @@ namespace AlertaCasaPOO
 {
     public static class AnalizarTemperatura
     {
-        public static void CrearDirectorioCSV()
-        {
-            string nombreDirectorio = "temp_sensor"; 
-
-            if (Directory.Exists(nombreDirectorio))
-            {
-                Console.WriteLine($"El directorio {nombreDirectorio} ya existe");
-            }
-            else
-            {
-                Directory.CreateDirectory("temp_sensor");
-                Console.WriteLine($"Directorio {nombreDirectorio} creado con éxito");
-            }
-        }
+        
 
         public static void historialTemperaturas()
         {
-            int contadorLinea = 0;
+            int opcionUsuario = 0;
             string ficheroTemperaturas = Path.Combine("temp_sensor", "temperaturas.csv");
-            CrearDirectorioCSV();
-            Console.WriteLine("=== HISTÓRICO DE TEMPERATURAS ===\n");
-
-            string[] resgistros = File.ReadAllLines(ficheroTemperaturas);
-            foreach(string registro in resgistros.Skip(1))
+            while (opcionUsuario != 3)
             {
-                contadorLinea++;
-                Console.WriteLine($"{contadorLinea} ==> {registro}");
+                Console.WriteLine("=== HISTORIAL DE TEMPERATURAS - ALERTACASA\n");
+                Console.WriteLine("1. Mostrar el histórico completo de temperaturas\n2. Filtrar por fecha\n3. Salir");
+                Console.WriteLine("Tu opción: ");
+                opcionUsuario = int.Parse(Console.ReadLine() ?? "");
+
+
+                switch(opcionUsuario)
+                {
+                    case 1:
+                        int contadorLinea = 0;
+
+                        string [] registros = File.ReadAllLines(ficheroTemperaturas);
+                        foreach (string registro in registros.Skip(1))
+                        {
+                            contadorLinea++;
+                            Console.WriteLine($"{contadorLinea} ==> {registro}");
+                        }
+                        break;
+
+                    case 2:
+                        bool registroEncontrado = false;
+                        string[] fechasRegistros = File.ReadAllLines(ficheroTemperaturas);
+
+                        Console.WriteLine("Introduce la fecha de registro: ");
+                        string fechaFiltrada = Console.ReadLine() ?? "";
+
+                        for (int i = 0; i < fechasRegistros.Length; i++)
+                        {
+                            if (fechaFiltrada == fechasRegistros[i])
+                            {
+                                Console.WriteLine($"Resultado de la búsqueda: {fechasRegistros[i]} ");
+                                registroEncontrado = true;
+                            }
+                        }
+
+                        if (!registroEncontrado)
+                        {
+                            Console.WriteLine($"No hay datos para esta fecha: {fechaFiltrada}");
+                        }
+                        break;
+                        
+                        
+                   
+
+                    case 3:
+                        Console.WriteLine("Saliendo del programa...");
+                        break;
+                        
+                    
+                }
             }
             
         }
