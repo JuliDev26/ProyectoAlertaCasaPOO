@@ -30,26 +30,31 @@ namespace AlertaCasaPOO
                         break;
 
                     case 2:
-                        bool registroEncontrado = false;
-                        string[] fechasRegistros = File.ReadAllLines(ficheroTemperaturas);
+                        int contadorLinea2 = 0;
+                        string [] registrosParaFiltrar = File.ReadAllLines(ficheroTemperaturas);
+                        Console.WriteLine("Introduce la fecha a filtrar (formato: dd/MM/yyyy)");
+                        string fechaFiltro = Console.ReadLine() ?? "";
 
-                        Console.WriteLine("Introduce la fecha de registro: ");
-                        string fechaFiltrada = Console.ReadLine() ?? "";
+                        Console.WriteLine($"Filtrando registros por fecha: {fechaFiltro}");
 
-                        for (int i = 0; i < fechasRegistros.Length; i++)
+                        for (int i = 0; i < registrosParaFiltrar.Length; i++)
                         {
-                            if (fechaFiltrada == fechasRegistros[i])
+                            string[] camposCSV = registrosParaFiltrar[i].Split(';');
+                            string fechaRegistro = camposCSV[0];
+
+                            if (fechaRegistro.StartsWith(fechaFiltro)) // Forma para decirle que la fecha que introduce el usuario es la misma
                             {
-                                Console.WriteLine($"Resultado de la búsqueda: {fechasRegistros[i]} ");
-                                registroEncontrado = true;
+                                contadorLinea2++;
+                                Console.WriteLine($"{contadorLinea2} ==> {registrosParaFiltrar[i]}");
                             }
                         }
-
-                        if (!registroEncontrado)
+                        if (contadorLinea2 == 0) // Si el contador de la linea no devuelve nada, no ha encontrado registros
                         {
-                            Console.WriteLine($"No hay datos para esta fecha: {fechaFiltrada}");
+                            Console.WriteLine("No se encontraron registros para la fecha especificada.");
+                           
                         }
                         break;
+
                         
                         
                    

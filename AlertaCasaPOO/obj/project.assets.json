@@ -8,24 +8,26 @@
     "net10.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Alumno8\\.nuget\\packages\\": {}
+    "C:\\Users\\Javier\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Alumno8\\Desktop\\AlertaCasa-Actividad\\ProyectoAlertaCasaPOO\\AlertaCasaPOO\\AlertaCasaPOO.csproj",
+      "projectUniqueName": "C:\\Users\\Javier\\Desktop\\Curso_Programacion_Sistemas_Informaticos\\Modulo2\\Repos\\Actividad-AlertaCasa\\ProyectoAlertaCasaPOO\\AlertaCasaPOO\\AlertaCasaPOO.csproj",
       "projectName": "AlertaCasaPOO",
-      "projectPath": "C:\\Users\\Alumno8\\Desktop\\AlertaCasa-Actividad\\ProyectoAlertaCasaPOO\\AlertaCasaPOO\\AlertaCasaPOO.csproj",
-      "packagesPath": "C:\\Users\\Alumno8\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Alumno8\\Desktop\\AlertaCasa-Actividad\\ProyectoAlertaCasaPOO\\AlertaCasaPOO\\obj\\",
+      "projectPath": "C:\\Users\\Javier\\Desktop\\Curso_Programacion_Sistemas_Informaticos\\Modulo2\\Repos\\Actividad-AlertaCasa\\ProyectoAlertaCasaPOO\\AlertaCasaPOO\\AlertaCasaPOO.csproj",
+      "packagesPath": "C:\\Users\\Javier\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Javier\\Desktop\\Curso_Programacion_Sistemas_Informaticos\\Modulo2\\Repos\\Actividad-AlertaCasa\\ProyectoAlertaCasaPOO\\AlertaCasaPOO\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Alumno8\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\Javier\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net10.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
