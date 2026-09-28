@@ -27,4 +27,15 @@ public class RegistroTemperatura
 
         return registro;
     }
+    public static RegistroTemperatura? ObtenerUltimoRegistro()
+    {
+        if (Registros.Count == 0)
+        {
+        return null;
+        }
+         
+        return Registros[Registros.Count - 1];
+    }
+
+
 }

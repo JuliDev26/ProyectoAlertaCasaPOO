@@ -31,5 +31,20 @@ public class Program
         RegistroTemperatura.Crear(30);
 
         Console.WriteLine("Total registros: " + RegistroTemperatura.Registros.Count);
+        RegistroTemperatura? ultimo = RegistroTemperatura.ObtenerUltimoRegistro();
+
+        if (ultimo != null)
+        {
+            Console.WriteLine("\n=== Último Registro ===");
+            Console.WriteLine($"Valor: {ultimo.Valor} {ultimo.Unidad}");
+            Console.WriteLine($"Fecha y hora: {ultimo.FechaHora}");
+        }
+
+        Console.WriteLine("\n=== Historial ===");
+
+        foreach (RegistroTemperatura registroActual in RegistroTemperatura.Registros)
+        {
+            Console.WriteLine($"{registroActual.Valor} {registroActual.Unidad} - {registroActual.FechaHora}");
+        }
     }
 }
