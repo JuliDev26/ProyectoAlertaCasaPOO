@@ -1,6 +1,19 @@
+# Carpetas de compilación de .NET
 bin/
 obj/
+
+# Carpetas de Visual Studio
 .vs/
 .vscode/
+
+# Archivos de usuario de Visual Studio
 *.user
 *.suo
+
+# Archivos temporales
+*.tmp
+*.log
+
+# Archivos del sistema operativo
+Thumbs.db
+.DS_Store
