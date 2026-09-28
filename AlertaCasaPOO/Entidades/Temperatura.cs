@@ -9,18 +9,15 @@ namespace AlertaCasaPOO.Entidades
     {
 
         public double TemperaturaRegistrada { get; set; }
-        public DataType FechaHora { get; set; }
-
-        public Guid IDTemperatura { get; set; }
+        public DateTime FechaHora { get; set; }
 
         public bool TemperaturaCorrecta { get; set; }
 
-        public Temperatura(double TemperaturaRegistrada, DataType FechaHora, Guid IDTemperatura, bool TemperaturaCorrecta)
+        public Temperatura(double TemperaturaRegistrada, DateTime FechaHora, bool TemperaturaCorrecta)
         {
             this.TemperaturaCorrecta = TemperaturaCorrecta;
             this.FechaHora = FechaHora;
-            this.IDTemperatura = IDTemperatura;
-            this.TemperaturaCorrecta &= TemperaturaCorrecta;
+            this.TemperaturaCorrecta = TemperaturaCorrecta;
         }
 
         public void ValidarTemperatura()
