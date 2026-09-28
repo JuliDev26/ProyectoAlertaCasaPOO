@@ -1,21 +1,30 @@
 using System;
-
+using System.Collections.Generic;
 public class RegistroTemperatura
 {
     public double Valor { get; set; }
     public DateTime FechaHora { get; set; }
     public string Unidad { get; set; }
 
+    // Colección donde se guardan todos los registros
+    public static List<RegistroTemperatura> Registros { get; set; }
+        = new List<RegistroTemperatura>();
     public RegistroTemperatura(double valor, DateTime fechaHora, string unidad)
     {
         Valor = valor;
         FechaHora = fechaHora;
         Unidad = unidad;
     }
-
-    // MÉTODO NUEVO: recibe el valor y crea el registro con la hora actual
-    public static RegistroTemperatura Crear(double valor, string unidad = "°C")
+    public static RegistroTemperatura Crear(double valor)
     {
-        return new RegistroTemperatura(valor, DateTime.Now, unidad);
+        var registro = new RegistroTemperatura(
+            valor,
+            DateTime.Now,
+            "°C"
+        );
+
+        Registros.Add(registro);
+
+        return registro;
     }
 }

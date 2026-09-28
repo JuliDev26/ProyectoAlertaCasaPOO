@@ -24,5 +24,12 @@ public class Program
         // Mostrarlo por pantalla
         Console.WriteLine($"Valor: {registroTemp.Valor} {registroTemp.Unidad}");
         Console.WriteLine($"Fecha y hora: {registroTemp.FechaHora}");
+
+        //Thiago -almacenamiento
+        RegistroTemperatura.Crear(22.5);
+        RegistroTemperatura.Crear(18.3);
+        RegistroTemperatura.Crear(30);
+
+        Console.WriteLine("Total registros: " + RegistroTemperatura.Registros.Count);
     }
 }
