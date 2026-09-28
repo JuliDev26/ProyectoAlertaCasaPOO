@@ -13,11 +13,18 @@ namespace AlertaCasaPOO.Entidades
 
         public bool TemperaturaCorrecta { get; set; }
 
-        public Temperatura(double TemperaturaRegistrada, DateTime FechaHora, bool TemperaturaCorrecta)
+        public Temperatura(double TemperaturaRegistrada, bool TemperaturaCorrecta)
+        {
+            this.TemperaturaCorrecta = TemperaturaCorrecta;
+            this.FechaHora = DateTime.Now;
+            this.TemperaturaRegistrada = TemperaturaRegistrada;
+        }
+
+        public Temperatura(double TemperaturaRegistrada,DateTime FechaHora,bool TemperaturaCorrecta)
         {
             this.TemperaturaCorrecta = TemperaturaCorrecta;
             this.FechaHora = FechaHora;
-            this.TemperaturaCorrecta = TemperaturaCorrecta;
+            this.TemperaturaRegistrada = TemperaturaRegistrada;
         }
 
         public void ValidarTemperatura()
