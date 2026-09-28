@@ -17,5 +17,12 @@ public class Program
         Console.WriteLine("\n=== Otro registro ===");
         Console.WriteLine($"Valor: {registro2.Valor} {registro2.Unidad}");
         Console.WriteLine($"Fecha y hora: {registro2.FechaHora}");
+
+        // Llamada al método
+        var registroTemp = RegistroTemperatura.Crear(22.5);
+
+        // Mostrarlo por pantalla
+        Console.WriteLine($"Valor: {registroTemp.Valor} {registroTemp.Unidad}");
+        Console.WriteLine($"Fecha y hora: {registroTemp.FechaHora}");
     }
 }

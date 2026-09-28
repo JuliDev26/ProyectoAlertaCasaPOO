@@ -12,4 +12,10 @@ public class RegistroTemperatura
         FechaHora = fechaHora;
         Unidad = unidad;
     }
+
+    // MÉTODO NUEVO: recibe el valor y crea el registro con la hora actual
+    public static RegistroTemperatura Crear(double valor, string unidad = "°C")
+    {
+        return new RegistroTemperatura(valor, DateTime.Now, unidad);
+    }
 }
