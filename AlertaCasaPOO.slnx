@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="AlertaCasaPOO/AlertaCasaPOO.csproj" />
+  <Project Path="AlertaCasaPOO.Tests/AlertaCasaPOO.Tests.csproj" />
+</Solution>
