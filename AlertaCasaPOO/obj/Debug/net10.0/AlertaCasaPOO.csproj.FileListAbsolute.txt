@@ -1,0 +1,15 @@
+C:\Users\Alumno16\Desktop\Proyecto_Alerta_Casa_POO\ProyectoAlertaCasaPOO\AlertaCasaPOO\bin\Debug\net10.0\AlertaCasaPOO.exe
+C:\Users\Alumno16\Desktop\Proyecto_Alerta_Casa_POO\ProyectoAlertaCasaPOO\AlertaCasaPOO\bin\Debug\net10.0\AlertaCasaPOO.deps.json
+C:\Users\Alumno16\Desktop\Proyecto_Alerta_Casa_POO\ProyectoAlertaCasaPOO\AlertaCasaPOO\bin\Debug\net10.0\AlertaCasaPOO.runtimeconfig.json
+C:\Users\Alumno16\Desktop\Proyecto_Alerta_Casa_POO\ProyectoAlertaCasaPOO\AlertaCasaPOO\bin\Debug\net10.0\AlertaCasaPOO.dll
+C:\Users\Alumno16\Desktop\Proyecto_Alerta_Casa_POO\ProyectoAlertaCasaPOO\AlertaCasaPOO\bin\Debug\net10.0\AlertaCasaPOO.pdb
+C:\Users\Alumno16\Desktop\Proyecto_Alerta_Casa_POO\ProyectoAlertaCasaPOO\AlertaCasaPOO\obj\Debug\net10.0\AlertaCasaPOO.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Alumno16\Desktop\Proyecto_Alerta_Casa_POO\ProyectoAlertaCasaPOO\AlertaCasaPOO\obj\Debug\net10.0\AlertaCasaPOO.AssemblyInfoInputs.cache
+C:\Users\Alumno16\Desktop\Proyecto_Alerta_Casa_POO\ProyectoAlertaCasaPOO\AlertaCasaPOO\obj\Debug\net10.0\AlertaCasaPOO.AssemblyInfo.cs
+C:\Users\Alumno16\Desktop\Proyecto_Alerta_Casa_POO\ProyectoAlertaCasaPOO\AlertaCasaPOO\obj\Debug\net10.0\AlertaCasaPOO.csproj.CoreCompileInputs.cache
+C:\Users\Alumno16\Desktop\Proyecto_Alerta_Casa_POO\ProyectoAlertaCasaPOO\AlertaCasaPOO\obj\Debug\net10.0\AlertaCasaPOO.sourcelink.json
+C:\Users\Alumno16\Desktop\Proyecto_Alerta_Casa_POO\ProyectoAlertaCasaPOO\AlertaCasaPOO\obj\Debug\net10.0\AlertaCasaPOO.dll
+C:\Users\Alumno16\Desktop\Proyecto_Alerta_Casa_POO\ProyectoAlertaCasaPOO\AlertaCasaPOO\obj\Debug\net10.0\refint\AlertaCasaPOO.dll
+C:\Users\Alumno16\Desktop\Proyecto_Alerta_Casa_POO\ProyectoAlertaCasaPOO\AlertaCasaPOO\obj\Debug\net10.0\AlertaCasaPOO.pdb
+C:\Users\Alumno16\Desktop\Proyecto_Alerta_Casa_POO\ProyectoAlertaCasaPOO\AlertaCasaPOO\obj\Debug\net10.0\AlertaCasaPOO.genruntimeconfig.cache
+C:\Users\Alumno16\Desktop\Proyecto_Alerta_Casa_POO\ProyectoAlertaCasaPOO\AlertaCasaPOO\obj\Debug\net10.0\ref\AlertaCasaPOO.dll
