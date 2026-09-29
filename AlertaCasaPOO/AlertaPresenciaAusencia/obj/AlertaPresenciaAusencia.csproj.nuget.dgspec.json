@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Alumno9\\Desktop\\ProyectoAlertaCasaPOO\\AlertaCasaPOO\\RegistroAperturaNoAutorizada\\RegistroAperturaNoAutorizada.csproj": {}
+    "C:\\Users\\Alumno9\\Desktop\\ProyectoAlertaCasaPOO\\AlertaCasaPOO\\AlertaPresenciaAusencia\\AlertaPresenciaAusencia.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Alumno9\\Desktop\\ProyectoAlertaCasaPOO\\AlertaCasaPOO\\RegistroAperturaNoAutorizada\\RegistroAperturaNoAutorizada.csproj": {
+    "C:\\Users\\Alumno9\\Desktop\\ProyectoAlertaCasaPOO\\AlertaCasaPOO\\AlertaPresenciaAusencia\\AlertaPresenciaAusencia.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Alumno9\\Desktop\\ProyectoAlertaCasaPOO\\AlertaCasaPOO\\RegistroAperturaNoAutorizada\\RegistroAperturaNoAutorizada.csproj",
-        "projectName": "RegistroAperturaNoAutorizada",
-        "projectPath": "C:\\Users\\Alumno9\\Desktop\\ProyectoAlertaCasaPOO\\AlertaCasaPOO\\RegistroAperturaNoAutorizada\\RegistroAperturaNoAutorizada.csproj",
+        "projectUniqueName": "C:\\Users\\Alumno9\\Desktop\\ProyectoAlertaCasaPOO\\AlertaCasaPOO\\AlertaPresenciaAusencia\\AlertaPresenciaAusencia.csproj",
+        "projectName": "AlertaPresenciaAusencia",
+        "projectPath": "C:\\Users\\Alumno9\\Desktop\\ProyectoAlertaCasaPOO\\AlertaCasaPOO\\AlertaPresenciaAusencia\\AlertaPresenciaAusencia.csproj",
         "packagesPath": "C:\\Users\\Alumno9\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Alumno9\\Desktop\\ProyectoAlertaCasaPOO\\AlertaCasaPOO\\RegistroAperturaNoAutorizada\\obj\\",
+        "outputPath": "C:\\Users\\Alumno9\\Desktop\\ProyectoAlertaCasaPOO\\AlertaCasaPOO\\AlertaPresenciaAusencia\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

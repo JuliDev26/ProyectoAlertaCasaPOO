@@ -8,23 +8,23 @@
     "net10.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Profesor\\.nuget\\packages\\": {},
+    "C:\\Users\\Alumno9\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Profesor\\Desktop\\ProyectoAlertaCasaPOO\\AlertaCasaPOO\\AlertaCasaPOO.csproj",
+      "projectUniqueName": "C:\\Users\\Alumno9\\Desktop\\ProyectoAlertaCasaPOO\\AlertaCasaPOO\\AlertaCasaPOO.csproj",
       "projectName": "AlertaCasaPOO",
-      "projectPath": "C:\\Users\\Profesor\\Desktop\\ProyectoAlertaCasaPOO\\AlertaCasaPOO\\AlertaCasaPOO.csproj",
-      "packagesPath": "C:\\Users\\Profesor\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Profesor\\Desktop\\ProyectoAlertaCasaPOO\\AlertaCasaPOO\\obj\\",
+      "projectPath": "C:\\Users\\Alumno9\\Desktop\\ProyectoAlertaCasaPOO\\AlertaCasaPOO\\AlertaCasaPOO.csproj",
+      "packagesPath": "C:\\Users\\Alumno9\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Alumno9\\Desktop\\ProyectoAlertaCasaPOO\\AlertaCasaPOO\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\Profesor\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Alumno9\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -33,7 +33,6 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
