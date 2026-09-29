@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Javier\\Desktop\\Curso_Programacion_Sistemas_Informaticos\\Modulo2\\Repos\\Actividad-AlertaCasa\\ProyectoAlertaCasaPOO\\AlertaCasaPOO\\AlertaCasaPOO.csproj": {}
+    "C:\\Users\\Alumno12\\Desktop\\Actividad-AlertaCasa\\ProyectoAlertaCasaPOO\\AlertaCasaPOO\\AlertaCasaPOO.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Javier\\Desktop\\Curso_Programacion_Sistemas_Informaticos\\Modulo2\\Repos\\Actividad-AlertaCasa\\ProyectoAlertaCasaPOO\\AlertaCasaPOO\\AlertaCasaPOO.csproj": {
+    "C:\\Users\\Alumno12\\Desktop\\Actividad-AlertaCasa\\ProyectoAlertaCasaPOO\\AlertaCasaPOO\\AlertaCasaPOO.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Javier\\Desktop\\Curso_Programacion_Sistemas_Informaticos\\Modulo2\\Repos\\Actividad-AlertaCasa\\ProyectoAlertaCasaPOO\\AlertaCasaPOO\\AlertaCasaPOO.csproj",
+        "projectUniqueName": "C:\\Users\\Alumno12\\Desktop\\Actividad-AlertaCasa\\ProyectoAlertaCasaPOO\\AlertaCasaPOO\\AlertaCasaPOO.csproj",
         "projectName": "AlertaCasaPOO",
-        "projectPath": "C:\\Users\\Javier\\Desktop\\Curso_Programacion_Sistemas_Informaticos\\Modulo2\\Repos\\Actividad-AlertaCasa\\ProyectoAlertaCasaPOO\\AlertaCasaPOO\\AlertaCasaPOO.csproj",
-        "packagesPath": "C:\\Users\\Javier\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Javier\\Desktop\\Curso_Programacion_Sistemas_Informaticos\\Modulo2\\Repos\\Actividad-AlertaCasa\\ProyectoAlertaCasaPOO\\AlertaCasaPOO\\obj\\",
+        "projectPath": "C:\\Users\\Alumno12\\Desktop\\Actividad-AlertaCasa\\ProyectoAlertaCasaPOO\\AlertaCasaPOO\\AlertaCasaPOO.csproj",
+        "packagesPath": "C:\\Users\\Alumno12\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Alumno12\\Desktop\\Actividad-AlertaCasa\\ProyectoAlertaCasaPOO\\AlertaCasaPOO\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Javier\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Alumno12\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
