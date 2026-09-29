@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "vrwupdh4unA=",
+  "dgSpecHash": "G2u8Pl56YS4=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Alumno12\\Desktop\\Actividad-AlertaCasa\\ProyectoAlertaCasaPOO\\AlertaCasaPOO\\AlertaCasaPOO.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\Alumno3\\Desktop\\Xema\\aa\\ProyectoAlertaCasaPOO\\AlertaCasaPOO\\AlertaCasaPOO.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Alumno3\\.nuget\\packages\\microsoft.netcore.app.ref\\10.0.10\\microsoft.netcore.app.ref.10.0.10.nupkg.sha512",
+    "C:\\Users\\Alumno3\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\10.0.10\\microsoft.windowsdesktop.app.ref.10.0.10.nupkg.sha512",
+    "C:\\Users\\Alumno3\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\10.0.10\\microsoft.aspnetcore.app.ref.10.0.10.nupkg.sha512",
+    "C:\\Users\\Alumno3\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\10.0.10\\microsoft.netcore.app.host.win-x64.10.0.10.nupkg.sha512"
+  ],
   "logs": []
 }
