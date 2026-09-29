@@ -11,5 +11,6 @@ class Program
         Temperatura temperatura = new(34.66, DateTime.Now, true);
         ESCSV.GuardarCSV("datos/temperaturas.csv", temperatura);
         ESCSV.LeerCSV("datos/temperaturas.csv");
+        AnalizarTemperatura.historialTemperaturas();
     }
 }
